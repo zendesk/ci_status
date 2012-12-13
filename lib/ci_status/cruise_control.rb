@@ -21,6 +21,10 @@ module CiStatus
       end
     end
 
+    def [](name)
+      projects.detect { |p| p.name == name }
+    end
+
     private
 
     def document

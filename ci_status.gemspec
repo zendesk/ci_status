@@ -1,4 +1,4 @@
-Gem::Specification.new "ci_status", "0.1.0" do |s|
+Gem::Specification.new "ci_status", "0.1.1" do |s|
   s.summary     = "CI status interface"
   s.description = "Library for reading, parsing and presenting cruise control style build status pages (think CCMenu, CCTray)"
   s.authors     = [ "Morten Primdahl" ]

@@ -23,4 +23,11 @@ describe CiStatus::CruiseControl do
     end
   end
 
+  describe "#[]" do
+    it "allows looking up by name" do
+      assert subject["Analytics"]
+      refute subject["Horseface"]
+    end
+  end
+
 end
