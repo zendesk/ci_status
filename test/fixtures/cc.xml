@@ -1,0 +1,5 @@
+<Projects>
+<Project webUrl="https://jenkins.example.com/job/Analytics/" name="Analytics" lastBuildLabel="19" lastBuildTime="2012-04-02T15:49:54Z" lastBuildStatus="Success" activity="Sleeping"/>
+<Project webUrl="https://jenkins.example.com/job/API/" name="API" lastBuildLabel="128" lastBuildTime="2012-12-10T22:58:09Z" lastBuildStatus="Failure" activity="Sleeping"/>
+<Project webUrl="https://jenkins.example.com/job/AppMarket/" name="AppMarket" lastBuildLabel="752" lastBuildTime="2012-12-12T20:17:19Z" lastBuildStatus="Success" activity="Sleeping"/>
+</Projects>
