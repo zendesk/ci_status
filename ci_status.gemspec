@@ -1,4 +1,4 @@
-Gem::Specification.new "ci_status", "0.1.1" do |s|
+Gem::Specification.new "ci_status", "1.0.0" do |s|
   s.summary     = "CI status interface"
   s.description = "Library for reading, parsing and presenting cruise control style build status pages (think CCMenu, CCTray)"
   s.authors     = [ "Morten Primdahl" ]
@@ -13,5 +13,5 @@ Gem::Specification.new "ci_status", "0.1.1" do |s|
   s.add_development_dependency("webmock")
 
   s.files = `git ls-files`.split("\n")
-  s.license = "MIT"
+  s.license = "Apache License Version 2.0"
 end
