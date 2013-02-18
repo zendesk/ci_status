@@ -1,4 +1,4 @@
-# CI Status
+# CI Status [![Build Status](https://secure.travis-ci.org/zendesk/ci_status.png)](http://travis-ci.org/zendesk/ci_status)
 
 Client for generic CI status pages
 
