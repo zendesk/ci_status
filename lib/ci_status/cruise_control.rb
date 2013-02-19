@@ -4,10 +4,12 @@ require "nokogiri"
 module CiStatus
   # Parses the CC format (also used by CCMenu, CCTray etc.)
   class CruiseControl
-    attr_accessor :url
+    attr_accessor :url, :username, :password
 
-    def initialize(url)
+    def initialize(url, username = nil, password = nil)
       self.url = url
+      self.username = username
+      self.password = password
     end
 
     def projects
@@ -32,7 +34,11 @@ module CiStatus
     end
 
     def data
-      @data ||= open(url).read
+      if username && password
+        @data ||= open(url, :http_basic_authentication => [username, password]).read
+      else
+        @data ||= open(url).read
+      end
     end
 
     class Project
